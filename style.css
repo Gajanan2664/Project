@@ -1,0 +1,311 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.one{
+    height: 100vh;
+    width: 100%;
+    background-image: url('back2.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between; 
+   padding-top: 40px;
+   padding-left: 4%;
+   padding-right: 4%;
+}
+
+.logo{
+    color: black;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+span{
+    color: red;
+}
+
+nav ul li{
+     list-style-type: none;
+     display: inline-block;
+     padding: 25px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+   color: red;
+   transition: .4s;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h1{
+    color: black;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+h3{
+    color: black;
+    font-size: 25px;
+}
+
+h4{
+   color: black;
+   letter-spacing: 2px;
+   font-size: 20px; 
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+
+.about img{
+    height: auto;
+    width: 430px;
+}
+
+.about-text{
+    width: 500px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2{
+    color: black;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+    color: red;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-text p{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.two{
+    height: 100vh;
+    width: 100%;
+    background-image: url(bg\ image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contact {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info,
+.contact-form {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid black;
+    color:black;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    background-color: #305dc5;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.contact-form button:hover{
+    background-color: red;
+    transition: .4s;
+    text-transform: capitalize;
+}
+.position{
+    height: 100vh;
+    width: 100%;
+    background-image: url(bg\ image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.row{
+    height: 100vh;
+    width: 100%;
+    background-image: url(bg\ image.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+.skills-area{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20%;
+}
+
+.skills {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.skills-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: black;
+}
+ 
+.skills-bar {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.6);
+    height: 20px;
+    z-index: -1;
+    border-radius: 50px;
+    position: absolute;
+}
+
+.skill-fill {
+    background: red;
+    height: 20px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    overflow: hidden;
+}
+
+.skill-percent {
+    font-size: 20px;
+}
+
+.html {
+    animation: html 2s;
+    width: 90%;
+}
+
+.css {
+    animation: css 2s;
+    width: 80%;
+}
+
+.java {
+    animation: java 2s;
+    width: 90%;
+}
+
+.sql {
+    animation: sql 2s;
+    width: 80%;
+}
+
+.js {
+    animation: js 2s;
+    width: 70%;
+}
+
+.nine{
+    height: 100vh;
+    width: 100%;
+    background-image: url(bg\ image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.projects {
+    margin: 20px;
+}
+
+.ten {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.project h2 {
+    margin-top: 0;
+}
+
+p{
+    color: black;
+}
+footer {
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.seven{
+    color: burlywood;
+    letter-spacing: 1px;
+    line-height: 10px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.icons span { color: red; margin-left: 20px;
+  
+
+}
